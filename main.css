@@ -1,0 +1,53 @@
+.mean-container{
+    display: inline-block;
+    position: relative;
+    max-height: 28px;
+}
+
+.mean-stars{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.mean-stars--gray .mean-stars__item{
+    display: block;
+    width: 30px;
+    height: 28px;
+    background-image: url(star.png);
+    background-size: cover;
+    background-position: 0 0;
+}
+
+.mean-stars--absolute{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 0%;
+    left: 0;
+}
+
+.mean-stars-inner{
+    overflow: hidden;
+    width: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 28px;
+}
+
+.mean-stars--yellow .mean-stars__item{
+    display: block;
+    width: 30px;
+    height: 28px;
+    background-image: url(star.png);
+    background-size: cover;
+    background-position: 0px 100%;
+}
+
+.rating-information{
+    text-align: center;
+    margin-top: 10px;
+}
